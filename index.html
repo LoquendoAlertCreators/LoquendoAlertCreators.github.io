@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoquendoAlertCreators</title>
+    <style>
+        body {
+            background-color: #0e0e0e;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .hidden {
+            display: none;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            padding: 10px;
+        }
+        .item img {
+            background-color: #0e0e0e;
+            margin-right: 20px;
+        }
+        .item span {
+            margin-right: 20px;
+            font-size: 1.2em;
+        }
+        .item a {
+            background-color: #00B33C;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .info-section {
+            padding: 20px;
+            margin: 20px auto;
+            border: 1px solid #00B33C;
+            border-radius: 5px;
+            max-width: 600px;
+        }
+        .welcome {
+            font-size: 2em;
+            color: #00B33C;
+        }
+        .welcome-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .welcome-text {
+            max-width: 600px;
+        }
+        .welcome-image {
+            transform: rotate(10deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a onclick="showSection('inicio')">Inicio</a>
+        <a onclick="showSection('descargas')">Programas</a>
+        <a onclick="showSection('plugins')">Plugins</a>
+        <a onclick="showSection('renders')">Renders</a>
+        <a onclick="showSection('fondos')">Fondos</a>
+        <a onclick="showSection('sonidos')">Sonidos</a>
+    </div>
+<!-- bienvenidas / codigo 104 es la imagen de bienvenida -->
+    <div id="inicio" class="container">
+        <div class="welcome-container">
+            <div class="welcome-text">
+                <h1 class="welcome">¡Bienvenido!</h1>
+                <p>Loquendo Alert Creators es la página por excelencia de la comunidad loquendera para descargar tus archivos.</p>
+                <div class="info-section">
+                    <h2>Información</h2>
+                    <p>Aquí puedes encontrar todos los recursos necesarios para poder crear tus videos. 
+                        Soporte directo en el servidor de Loquendo Alert</p>
+                    <a href="https://discord.com/invite/Y2VUgTE">Discord</a> <a href="https://www.youtube.com/@loquendoalert9590">Youtube</a> <a href="https://www.facebook.com/LoquendoAlert/">Facebook</a>
+
+                </div>
+            </div>
+            <div class="welcome-image">
+                <img src="Imagenes/bievenidos.png" alt="Imagen de Bienvenida">
+            </div>
+        </div>
+    </div>
+<!-- categorias DESCARGAS PROGRAMAS-->
+    <div id="descargas" class="container hidden">
+         <div class="item">
+            <img src="Imagenes/LoquendoTtsLogo.png" width="100px" height="100px">
+            <span>Loquendo TTS Director</span>
+            <a href="https://drive.google.com/file/d/1Rq7HMDYxNuiDhq5SjX20Baex0P7b6FTI/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt="Icono">
+            <span>Sony Vegas Pro 10</span>
+            <a href="tu_enlace_de_descarga_1">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 11</span>
+            <a href="tu_enlace_de_descarga_2">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 12</span>
+            <a href="https://drive.google.com/file/d/1WCcyl2CfoLoSybXgpotVJZkQ_cAU8UtO/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 13</span>
+            <a href="https://drive.google.com/file/d/14jTCW2xCy0yuXU-tMRtSEtSraz5A_x5h/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 14</span>
+            <a href="https://drive.google.com/file/d/1vSeIUSkxELRhFHeKyvb5EbFEUoKenvFq/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 15</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 16</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 17</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 18</span>
+            <a href="https://drive.google.com/file/d/1fbHzknO60UEarxj6epPqqtj2md8STqwT/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 19</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 20</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 21</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/SonyVegasIcono2.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sony Vegas Pro 22</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+        
+    <!-- categorias RENDERS -->
+        
+    </div>
+    <div id="renders" class="container hidden">
+        <div class="item">
+            <img src="Imagenes/bievenidos.png" width="500px" height="250px">
+            <span>kiritoo</span>
+            <br>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+            &nbsp;
+            &nbsp;
+            <span>good</span>
+        </div>
+        <div class="item">
+            <img src="path_to_image.png" alt="Icono">
+            <span>xddddd</span>
+            <a href="tu_enlace_de_descarga_2">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="path_to_image.png" alt="Icono">
+            <span>xdddddddddd</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+<!-- categorias PLUGINS-->
+</div>
+    <div id="plugins" class="container hidden">
+        <div class="item">
+            <img src="Imagenes/NewBlueLogo.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>NEW BLUE</span>
+            <a href="https://drive.google.com/file/d/1CYyp0iUVi244JDGl_EximtIOXRpOLS7Q/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Sapphirelogo.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>SAPPHIRE</span>
+            <a href="https://drive.google.com/file/d/1v0u5AvBX7XhnKHWKt_XxSOBwRiehhGxw/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Bcclogo.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>BCC PLUGIN</span>
+            <a href="https://drive.google.com/file/d/1iNqneEjKFh_GycD5XbihoQzukrw9JnnO/view?usp=sharing">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Universelogol.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>UNIVERSE FX</span>
+            <a href="https://www.mediafire.com/file/jnkwe9rpdj9torn/UNI_PLUGIN.rar/file">Descargar</a>
+        </div>
+<!-- categorias FONDOS-->
+</div>
+    <div id="fondos" class="container hidden">
+        <div class="item">
+            <img src="Imagenes/FondosShaddy.png" width="500px" height="250px">
+            <span>Pack de Fondos Shaddy</span>
+            <a href="https://www.mediafire.com/file/e0lsqwrv575qs88/Fondos_para_videos.rar/file">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Fos1Fondos.png" width="500px" height="250px">
+            <span>Fondos Feather of Spines 1</span>
+            <a href="https://mega.nz/folder/6M5xnTRL#P7BJO5V9wQoW9S5oVxR-6g/folder/jEh1xbiA">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Fos2Fondoss.png" width="500px" height="250px">
+            <span>Fondos Feather of Spines 2</span>
+            <a href="https://mega.nz/folder/bUI2jBqR#oxsqGCeBp8MJ3Hv1fR-s6A/folder/mJBgGBCQ">Descargar</a>
+</div>
+<!-- categorias SONIDOS-->
+</div>
+    <div id="sonidos" class="container hidden">
+        <div class="item">
+            <img src="Imagenes/sonidologol.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Efectos de Sonido LA</span>
+            <a href="https://drive.google.com/drive/folders/1L3l0LkBgw9bL359rPWimfEeNA9EtrfQa">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/sonidologol.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sonidos SFX Anime</span>
+            <a href="https://drive.google.com/file/d/1VrJN2wvBnpALwc-jz4QFX5zRbxONRUyq/view">Descargar</a>
+        </div>
+        <div class="item">
+            <img src="Imagenes/sonidologol.png" width="100px" y height="100px" alt= alt="Icono">
+            <span>Sonidos sin Sonidos LA</span>
+            <a href="tu_enlace_de_descarga_3">Descargar</a>
+        </div>
+
+    </div>
+    <script>
+        function showSection(sectionId) {
+            document.getElementById('inicio').classList.add('hidden');
+            document.getElementById('descargas').classList.add('hidden');
+            document.getElementById('renders').classList.add('hidden');
+            document.getElementById('plugins').classList.add('hidden');
+            document.getElementById('fondos').classList.add('hidden');
+            document.getElementById('sonidos').classList.add('hidden');
+
+
+            document.getElementById(sectionId).classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
